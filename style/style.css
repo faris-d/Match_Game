@@ -1,0 +1,43 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  min-width: 400px;
+  font-family: 'Work Sans', sans-serif;
+  background-color: rgb(255, 242, 242);
+  color: rgb(32,64, 86);
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 2.1875rem;
+}
+
+h2 {
+  font-size: .875rem;
+  font-weight: 900;
+}
+p {
+  font-size: .875rem;
+  color: rgb(74,74,74);
+}
+
+.container {
+  padding-top: 5.25rem;
+}
+
+.card {
+  background-color: rgb(32,64,86);
+  height: 12rem;
+  width: 10.5rem;
+  border-radius: 8px;
+  border: 4px solid #ffffff;
+  display: inline-grid;
+  justify-content: center;
+  align-content: space-around;
+  font-size: 7rem;
+  font-weight: 900;
+  color: rgb(255,255,255);
+  cursor: pointer;
+}
